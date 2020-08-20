@@ -1,0 +1,53 @@
+{
+    "name": "nails/driver-currency-currencylayer",
+    "keywords": ["Nails", "Shed Collective", "CodeIgniter", "Currency Module", "Driver", "CurrencyLayer"],
+    "homepage": "http://nailsapp.co.uk/modules/currency/driver/currencylayer",
+    "description": "This is the \"CurrencyLayer\" driver for the Nails Currency module.",
+    "license": "MIT",
+    "authors":
+    [
+        {
+            "name": "Pablo de la Pena",
+            "email": "p@nailsapp.co.uk",
+            "homepage": "http://nailsapp.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "support":
+    {
+        "email": "hello@nailsapp.co.uk"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require":
+    {
+        "nails/module-currency": "dev-develop"
+    },
+    "require-dev":
+    {
+        "phpunit/phpunit": "7.*"
+    },
+    "extra":
+    {
+        "nails" :
+        {
+            "name": "CurrencyLayer",
+            "type": "driver",
+            "forModule": "nails/module-currency",
+            "data": {
+                "namespace": "Nails\\Currency\\Driver\\",
+                "class": "CurrencyLayer",
+                "settings": [
+                    {
+                        "key": "sAccessKey",
+                        "label": "Access Key"
+                    }
+                ]
+            }
+        }
+    },
+    "autoload":
+    {
+        "psr-4": {"Nails\\Currency\\Driver\\": "src/"}
+    }
+}
