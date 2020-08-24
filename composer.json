@@ -33,6 +33,7 @@
         {
             "name": "CurrencyLayer",
             "type": "driver",
+            "subType": "currency",
             "forModule": "nails/module-currency",
             "data": {
                 "namespace": "Nails\\Currency\\Driver\\",
