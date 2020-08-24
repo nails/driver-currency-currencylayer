@@ -41,7 +41,8 @@
                 "settings": [
                     {
                         "key": "sAccessKey",
-                        "label": "Access Key"
+                        "label": "Access Key",
+                        "info": "A paid account is required for currency conversions to work correctly"
                     }
                 ]
             }
