@@ -1,6 +1,6 @@
 <?php
 
-namespace Nails\Currency\Driver\Settings;
+namespace Nails\Currency\Driver\CurrencyLayer\Settings;
 
 use Nails\Common\Helper\Form;
 use Nails\Common\Interfaces;
@@ -11,7 +11,7 @@ use Nails\Factory;
 /**
  * Class CurrencyLayer
  *
- * @package Nails\Currency\Driver\Settings
+ * @package Nails\Currency\Driver\CurrencyLayer\Settings
  */
 class CurrencyLayer implements Interfaces\Component\Settings
 {
