@@ -35,16 +35,10 @@
             "type": "driver",
             "subType": "currency",
             "forModule": "nails/module-currency",
+            "namespace": "Nails\\Currency\\Driver\\",
             "data": {
                 "namespace": "Nails\\Currency\\Driver\\",
-                "class": "CurrencyLayer",
-                "settings": [
-                    {
-                        "key": "sAccessKey",
-                        "label": "Access Key",
-                        "info": "A paid account is required for currency conversions to work correctly"
-                    }
-                ]
+                "class": "CurrencyLayer"
             }
         }
     },
