@@ -3,6 +3,7 @@
 namespace Nails\Currency\Driver;
 
 use Nails\Common\Driver\Base;
+use Nails\Common\Factory\HttpRequest;
 use Nails\Common\Service\HttpCodes;
 use Nails\Currency\Exception\ExchangeException\DriverApiException;
 use Nails\Currency\Exception\ExchangeException\DriverNotConfiguredException;
