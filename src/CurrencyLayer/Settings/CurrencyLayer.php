@@ -2,6 +2,7 @@
 
 namespace Nails\Currency\Driver\CurrencyLayer\Settings;
 
+use Nails\Currency\Driver\CurrencyLayer\Admin\Permission;
 use Nails\Common\Helper\Form;
 use Nails\Common\Interfaces;
 use Nails\Common\Service\FormValidation;
@@ -32,9 +33,9 @@ class CurrencyLayer implements Interfaces\Component\Settings
     /**
      * @inheritDoc
      */
-    public function getPermissions(): array
+    public function getPermission(): string
     {
-        return [];
+        return Permission\Settings\CurrencyLayer::class;
     }
 
     // --------------------------------------------------------------------------
